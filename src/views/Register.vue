@@ -74,8 +74,6 @@ export default {
           });
         this.$store.commit("userEmail", this.email);
         this.$store.commit("userName", this.name);
-        // this.$router.go(this.$router.replace({ name: "Editor" }));
-        // this.$router.go({ name: "Profile" });
         this.$router.replace({ name: "Profile" });
         console.log(user);
         const userData = {
